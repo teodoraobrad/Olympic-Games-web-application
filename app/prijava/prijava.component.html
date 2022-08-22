@@ -1,0 +1,111 @@
+<!-- <form>
+    <table>
+        <tr>
+            <td>Korisnicko ime:</td>
+            <td>
+                <input type='text' name='korime' [(ngModel)]='korisnickoime'>
+            </td>
+        </tr>
+        <tr>
+            <td>Lozinka:</td>
+            <td>
+                <input type='text' name='lozinka' [(ngModel)]='lozinka'>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan='2'>
+                <button (click)='prijava()'>Prijava</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan='2'>
+                <div *ngIf='poruka' class='greska'>
+                    {{poruka}}
+                </div>
+            </td>
+        </tr>
+    </table>
+
+</form> -->
+
+
+<header>
+
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Olimpijada</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+  
+  
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/pocetna">Pocetna stranica</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" routerLink="/prijava">Prijava</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/promenaLozinke">Promena lozinke</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/registracija">Registracija</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/neregistrovani">Razgledaj</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.olympics.com">Olympics</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.gotokyo.org/en/index.html">Tokio</a>
+            </li>
+          </ul>
+  
+          
+          <form class="d-flex">
+            <!-- <input class="form-control me-2" type="search" placeholder="Pretraga" aria-label="Search"> -->
+            <button class="btn btn-outline-success" (click)='odjava()' routerLink='pocetna'>Odjavi se</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  
+  </header>
+  
+
+<div class="text-center">
+    <form class="form-signin">
+        <div class="centriraj">
+
+        
+      <img class="mb-4" src="../../assets/Olympic_Logo.png" alt="" width="122" height="57">
+      <h1 class="h3 mb-3 fw-normal">Prijava</h1>
+  </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="floatingInput"  name='korime' [(ngModel)]='korisnickoime'>
+        <label for="floatingInput">Korisnicko ime</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" id="floatingPassword"  name='lozinka' [(ngModel)]='lozinka'>
+        <label for="floatingPassword">Lozinka</label>
+      </div>
+  
+      <div class="mb-3">
+        <label>
+            <div *ngIf='poruka' class='greska'>
+                {{poruka}}
+            </div>
+        </label>
+      </div> 
+      <button class="w-100 btn btn-lg btn-primary" (click)='prijava()'>Prijavi me</button>
+      <!-- <p class="mt-5 mb-3 text-muted">&copy; 2021</p> -->
+    </form>
+  
+</div>
+  
+      

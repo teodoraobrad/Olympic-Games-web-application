@@ -1,0 +1,111 @@
+<header>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Olimpijada</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/pocetna">Pocetna stranica</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/prijava">Prijava</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/promenaLozinke">Promena lozinke</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/registracija">Registracija</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.olympics.com">Olympics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.gotokyo.org/en/index.html">Tokio</a>
+                    </li>
+                </ul>
+
+
+                <form class="d-flex">
+                    <!-- <input class="form-control me-2" type="search" placeholder="Pretraga" aria-label="Search"> -->
+                    <button class="btn btn-outline-success" (click)='odjava()' routerLink='pocetna'>Odjavi se</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+</header>
+
+<ul class="breadcrumb">
+    <li><a routerLink="/pocetna">Pocetna</a></li>
+    <li><a routerLink="/prijava">Prijava</a></li>
+    <li><a routerLink="/delegat">Delegat</a></li>
+    <li>Rezultati</li>
+</ul>
+
+
+
+<br />
+
+<ng-container *ngIf='takmicenje.vrsta=="i"'>
+
+
+
+
+    <h4 class="text-center">
+        Unesi rezultate za individualno takmicenje sa identifikatorom {{takmicenje.id}}
+    </h4>
+    <br />
+    <button (click)='sportisti()'>Nadji sportiste</button>
+    <br/>
+    <div class="col-sm-2"></div>
+    <div class="row g-5">
+
+        <table class="table  table-bordered text-center col-sm-8">
+            <tr class="col-sm-12">
+                <th class="col-sm-4">
+                    Ucesnik
+                </th>
+               
+                <th class="col-sm-4">
+                    Rezultat
+                </th>
+                <th class="col-sm-4">
+                    Potvrdi
+                </th>
+            </tr>
+            <ng-container *ngFor='let r of ucesnici'>
+
+
+                <tr >
+
+                    <td >
+                        {{r.imeprezime}}
+                    </td>
+                   <td><input type="text" [(ngModul)]='rezultat'></td>
+
+                    <td >
+                       <button (click)='unesi(r.imeprezime,rezultat)'>Unesi</button>
+                    </td>
+                   
+                </tr>
+            </ng-container>
+        </table>
+
+    </div>
+    <div class="col-sm-2">
+
+    </div>
+
+</ng-container>
+
+
+<hr>
+
+
+<br />

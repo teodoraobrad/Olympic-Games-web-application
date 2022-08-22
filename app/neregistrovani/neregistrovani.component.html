@@ -1,0 +1,363 @@
+<header>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Olimpijada</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/pocetna">Pocetna stranica</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/prijava">Prijava</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " routerLink="/promenaLozinke">Promena lozinke</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/registracija">Registracija</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" routerLink="/neregistrovani">Razgledaj</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.olympics.com">Olympics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.gotokyo.org/en/index.html">Tokio</a>
+                    </li>
+                </ul>
+
+
+                <form class="d-flex">
+                    <!-- <input class="form-control me-2" type="search" placeholder="Pretraga" aria-label="Search"> -->
+                    <button class="btn btn-outline-success" (click)='odjava()' routerLink='pocetna'>Odjavi se</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--
+     <ul class="nav navbar-nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#usecnice">Zemlje ucesnice</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#raspodela">Easpodela medalja</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#pretraga">Pretraga</a>
+        </li>
+        
+      </ul>
+-->
+
+
+
+</header>
+
+<ul class="breadcrumb">
+  <li><a routerLink="/pocetna">Pocetna</a></li>
+  <li>Neregistrovani</li>
+</ul>
+
+
+<!-- ^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,10}$" -->
+
+
+
+
+
+
+
+
+<h3 class="text-center" id="ucesnice">
+    Zemlje ucesnice
+</h3>
+<br/>
+<table  class="table  table-bordered text-center" id='table1'>
+
+    <tr class="col-sm-12">
+        <th class="col-sm-4">
+            Zastava zemlje
+        </th>
+        <th class="col-sm-4">
+            Ime zemlje
+        </th>
+        <th class="col-sm-4">
+            Broj sportista
+        </th>
+    </tr>
+    <!-- class="col-sm-12 text-center mt-4 p-1" -->
+    <tbody>
+        <tr *ngFor="let z of zemlje | paginate:{itemsPerPage:10, currentPage:page, totalLength:totalleng, id:'table1pagination'}"
+            class="col-sm-12">
+
+            <td class="col-sm-4">
+                <img width="200px" height="100px" src='assets/{{z.rang}}.png'>
+            </td>
+            <td class="col-sm-4">
+                {{z.naziv}}
+            </td>
+            <td class="col-sm-4">
+                {{z.takmicara}}
+            </td>
+        </tr>
+    </tbody>
+
+</table>
+<pagination-controls id="table1pagination" (pageChange)="page =$event" class="pagination justify-content-center"></pagination-controls>
+
+<br />
+
+<hr>
+<br />
+
+
+
+<h3 class="text-center" id="raspodela">
+    Raspodela medalja
+</h3><br />
+<table id='table2' class="table  table-bordered text-center">
+    <tr class="col-sm-12">
+        <th class="col-sm-2">
+            Rang
+        </th>
+        <th class="col-sm-4">
+            Ime zemlje
+        </th>
+        <th class="col-sm-1">
+            Broj zlatnih
+        </th>
+        <th class="col-sm-1">
+            Broj srebrnih
+        </th>
+        <th class="col-sm-1">
+            Broj bronzanih
+        </th>
+        <th class="col-sm-3">
+            Ukupan broj medalja
+        </th>
+    </tr>
+    <tr *ngFor="let z of zemlje | paginate:{itemsPerPage:10, currentPage:page2, totalLength:totalleng, id:'table2pagination'}"
+        class="col-sm-12">
+
+        <td class="col-sm-2">
+            {{z.rang}}
+        </td>
+        <td class="col-sm-4">
+            {{z.naziv}}
+        </td>
+        <td class="col-sm-1">
+            {{z.zlato}}
+        </td>
+        <td class="col-sm-1">
+            {{z.srebro}}
+        </td>
+        <td class="col-sm-1">
+            {{z.bronza}}
+
+        </td>
+        <td class="col-sm-3">
+            {{z.zlato+z.srebro+z.bronza}}
+        </td>
+    </tr>
+   
+</table> <pagination-controls id="table2pagination" (pageChange)="page2 =$event" class="pagination justify-content-center"></pagination-controls>
+
+<br />
+
+
+<hr>
+
+
+<br />
+<h4 class="text-center" id="pretraga">Pretraga</h4>
+<br/>
+<div class="row g-5">
+
+
+<div class=" col-sm-4">
+
+</div>
+<div class="col-sm-4">
+
+
+    <table class="table">
+
+
+        <tr>
+
+            <td >Ime i prezime:</td>
+            <td><input type="text" [(ngModel)]='imeprezime'></td>
+        </tr>
+        <tr>
+            <td >Zemlja:</td>
+            <td ><select [(ngModel)]='zemljaporekla'>
+
+                    <option value="">Sve zemlje</option>
+                    <option *ngFor='let z of zemlje'>{{z.naziv}}</option>
+                </select></td>
+        </tr>
+       <tr>
+        <td>Sport:</td>
+        <td><select  [(ngModel)]='sport'>
+         
+            <option value="" >Svi sportovi</option>
+         <option *ngFor='let s of sportovi'>{{s.naziv}}</option>
+        </select></td>
+
+    </tr>
+    <tr>
+        <td>Disciplina:</td>
+        <td><select  [(ngModel)]='disciplina'>
+         
+            <option value="">Sve discipline</option>
+            <option *ngFor='let d of discipline'>{{d.naziv}}</option> -->
+        </select></td>
+        
+    </tr>
+        <tr>
+            <td>Pol</td>
+
+
+            <td >
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pol" id="polm" value='m' [(ngModel)]='pol' >
+                    <label class="form-check-label" for="polm">
+                        M
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pol" id="polz"  value='z' [(ngModel)]='pol'>
+                    <label class="form-check-label" for="polz">
+                        Z
+                    </label>
+                </div>
+            </td>
+        </tr>
+
+
+        <tr><td> </td>
+            <td>
+            <input type="checkbox" name="med" [(ngModel)]='medalja'>samo osvajaci medalja
+        </td>
+    
+    </tr>
+        <tr><button (click)='pretraga()'>Pretrazi</button></tr>
+    </table>
+
+</div>
+<div class=" col-sm-4">
+
+</div>
+</div>
+
+<hr>
+<table class="col-sm-12">
+
+
+    <tr class="col-sm-12">
+        <td>
+            Izaberite broj redova po stranici:
+        </td>
+        <td class="col-sm-2">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="perpage" id="perpage" [(ngModel)]='perpage'
+                    value='10' checked>
+                <label class="form-check-label" for="perpage">
+                    10
+                </label>
+            </div>
+        </td>
+        <td class="col-sm-2">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="perpage" id="perpage2" [(ngModel)]='perpage'
+                    value='20'>
+                <label class="form-check-label" for="perpage2">
+                    20
+                </label>
+            </div>
+        </td>
+        <td class="col-sm-2">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="perpage" id="perpage3" [(ngModel)]='perpage'
+                    value='50' >
+                <label class="form-check-label" for="perpage3">
+                    50
+                </label>
+            </div>
+        </td>
+        <td class="col-sm-2">
+
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="perpage" id="perpage4" [(ngModel)]='perpage'
+                    value='100'>
+                <label class="form-check-label" for="perpage4">
+                    100
+                </label>
+            </div>
+        </td>
+    </tr>
+</table>
+<hr>
+<br/>
+<h4 class="text-center">Rezultati pretrage</h4>
+<br/>
+
+<table id='table3' class="table  table-bordered text-center">
+    <tr class="col-sm-12">
+        <th class="col-sm-3">
+            Ime i prezime
+        </th>
+        <th class="col-sm-3">
+            Zemlja
+        </th>
+        <th class="col-sm-2">
+            Sport
+        </th>
+        <th class="col-sm-2">
+            Disciplina
+        </th>
+        <th class="col-sm-1">
+            Pol
+        </th>
+        <th class="col-sm-1">
+            Medalja
+        </th>
+    </tr>
+    <tr *ngFor="let s of sportisti | paginate:{itemsPerPage:perpage, currentPage:page3, totalLength:totalleng2, id:'table3pagination'}">
+
+        <td>
+            {{s.imeprezime}}
+        </td>
+        <td>
+            {{s.zemlja}}
+        </td>
+        <td>
+            {{s.sport}}
+        </td>
+        <td>
+            {{s.disciplina}}
+        </td>
+        <td>
+            {{s.pol}}
+
+        </td>
+        <td>
+            {{s.medalja}}
+        </td>
+    </tr>
+
+
+
+</table>
+<pagination-controls id="table3pagination" (pageChange)="page3 =$event" class="pagination justify-content-center"></pagination-controls>
+
+

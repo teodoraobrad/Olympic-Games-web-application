@@ -1,0 +1,275 @@
+<header>
+  <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Olimpijada</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+
+
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/pocetna">Pocetna stranica</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/prijava">Prijava</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/promenaLozinke">Promena lozinke</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/registracija">Registracija</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/neregistrovani">Razgledaj</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.olympics.com">Olympics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.gotokyo.org/en/index.html">Tokio</a>
+          </li>
+        </ul>
+
+
+        <form class="d-flex">
+          <!-- <input class="form-control me-2" type="search" placeholder="Pretraga" aria-label="Search"> -->
+          <button class="btn btn-outline-success" (click)='odjava()' routerLink='pocetna'>Odjavi se</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+
+</header>
+<ul class="breadcrumb">
+  <li><a routerLink="/pocetna">Pocetna</a></li>
+  <li><a routerLink="/prijava">Prijava</a></li>
+  <li>Vodja</li>
+</ul>
+
+
+<h4 class="text-center">
+  Prijavi sportistu
+</h4>
+<br />
+<div class="row g-5">
+
+
+  <div class=" col-sm-4">
+
+  </div>
+  <div class="col-sm-4">
+
+
+    <table class="table">
+
+
+      <tr>
+
+        <td>Ime i prezime:</td>
+
+        <td><input type="text" [(ngModel)]='imeprezime'>
+
+        </td>
+      </tr>
+      <tr>
+        <td>Pol:</td>
+        <td><input type="radio" name="pol" value="m" [(ngModel)]='pol'>M
+
+          <input type="radio" name="pol" value="z" [(ngModel)]='pol'>Z
+        </td>
+
+      </tr>
+
+      <tr>
+
+        <td>Sport:</td>
+
+        <td><select [(ngModel)]='sport'>
+
+            <option value="">Svi podrzani sportovi</option>
+            <option *ngFor="let s of sportoviNaziv">{{s.naziv}}</option>
+          </select></td>
+      </tr>
+
+      <tr>
+        <td>Disciplina:</td>
+        <td><select [(ngModel)]='disciplina'>
+            <option value="">Sve podrzane discipline</option>
+            <option *ngFor="let a of disciplineNaziv">{{a.naziv}}</option>
+
+
+          </select>
+        </td>
+
+
+
+
+      </tr>
+    
+
+
+      <tr>
+        <td colspan="2"><button (click)='dodajSportistu()'>Dodaj</button></td>
+      </tr>
+    </table>
+
+  </div>
+  <div class=" col-sm-4">
+
+  </div>
+</div>
+
+
+
+
+
+
+
+<hr>
+<br />
+
+
+
+<h4 class="text-center">
+  Prijavi ekipu
+</h4>
+<br />
+<div class="row g-5">
+
+
+  <div class=" col-sm-4">
+
+  </div>
+  <div class="col-sm-4">
+
+
+    <table class="table">
+
+
+      
+
+      <tr>
+
+        <td>Sport:</td>
+
+        <td><select [(ngModel)]='esport'>
+
+            <option value="">Svi podrzani sportovi</option>
+            <option *ngFor="let s of sportoviNaziv">{{s.naziv}}</option>
+          </select></td>
+      </tr>
+
+      <tr>
+        <td>Disciplina:</td>
+        <td><select [(ngModel)]='edisciplina'>
+            <option value="">Sve podrzane discipline</option>
+            <option *ngFor="let a of disciplineNaziv">{{a.naziv}}</option>
+
+
+          </select>
+        </td>
+
+
+
+
+      </tr>
+      
+      <tr>
+        <td>Pol:</td>
+        <td><input type="radio" name="epol" value="m" [(ngModel)]='epol'>M
+
+          <input type="radio" name="epol" value="z" [(ngModel)]='epol'>Z
+        </td>
+
+      </tr>
+    
+      <tr><td>Prijavljani sportisti</td>
+      <td><button (click)='dohvatiSportiste()'>Nadji</button></td></tr>
+      <tr>
+        <td>Sportisti:</td>
+        <td rowspan="2">
+          <select multiple [(ngModel)]='eekipa'>
+
+
+            <option *ngFor='let d of sportisti'>{{d.imeprezime}}</option>
+          </select>
+
+        </td>
+
+      </tr>
+
+      <tr>
+        <td colspan="2"><button (click)='dodajEkipu()'>Dodaj</button></td>
+      </tr>
+    </table>
+
+  </div>
+  <div class=" col-sm-4">
+
+  </div>
+</div>
+
+
+
+
+
+
+
+<hr>
+<br />
+
+
+<h4 class="text-center">
+  Pregled ukupnog broja clanova
+</h4>
+<br/>
+
+<p style="text-align: center;">{{vodja.nacionalnost}} ima {{broj}} prijavljenih sportista</p>
+
+
+
+<div style="text-align: center;">  <button (click)='ispisi()'>Pregled po sportovima</button></div>
+<br/>
+<table class="table  table-bordered text-center">
+  <tr class="col-sm-12">
+    <th class="col-sm-2">
+      
+    </th>
+    <th class="col-sm-4">
+      Sport
+    </th>
+    <th class="col-sm-4">
+     Broj takmicara
+    </th>
+    <th class="col-sm-2">
+      
+    </th>
+    
+  </tr>
+  <ng-container *ngFor="let s of sporttim">
+  <tr *ngIf='s.brojsportista>0'
+    class="col-sm-12">
+
+    <td class="col-sm-2">
+      
+    </td>
+    <td class="col-sm-4">
+      {{s.naziv}}
+    </td>
+    <td class="col-sm-4">
+      {{s.brojsportista}}
+    </td>
+    
+    <td class="col-sm-2">
+  
+    </td>
+  </tr></ng-container>
+</table>
+
+
+
+

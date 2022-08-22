@@ -1,0 +1,263 @@
+<header><nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Olimpijada</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/pocetna">Pocetna stranica</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/prijava">Prijava</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/promenaLozinke">Promena lozinke</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/registracija">Registracija</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.olympics.com">Olympics</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.gotokyo.org/en/index.html">Tokio</a>
+        </li>
+      </ul>
+
+      
+      <form class="d-flex">
+        <!-- <input class="form-control me-2" type="search" placeholder="Pretraga" aria-label="Search"> -->
+        <button class="btn btn-outline-success" (click)='odjava()' routerLink='pocetna'>Odjavi se</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+</header>
+
+<ul class="breadcrumb">
+  <li><a routerLink="/pocetna">Pocetna</a></li>
+  <li><a routerLink="/prijava">Prijava</a></li>
+  <li>Delegat</li>
+</ul>
+
+
+
+<br />
+
+
+
+<h4 class="text-center">
+  Zakazi termin za individualna takmicenja
+</h4>
+<br />
+<div class="row g-5">
+      
+<table class="table  table-bordered text-center">
+  <tr class="col-sm-12"> 
+    <th class="col-sm-2">
+     Id
+    </th>
+    <th class="col-sm-2">
+      Sport
+    </th>
+    <th class="col-sm-2">
+      Disciplina
+    </th>
+    <th class="col-sm-2">
+      Pol
+    </th>
+   
+    <th class="col-sm-2">
+      Lokacija
+    </th>
+    <th class="col-sm-2">
+      Zakazivanje
+    </th>
+   
+  </tr>
+  <ng-container *ngFor='let r of takmicenja'>
+
+ 
+  <tr *ngIf='r.vrsta=="i"' class="col-sm-12">
+
+    <td class="col-sm-2">
+      {{r.id}}
+    </td>
+    <td class="col-sm-2">
+      {{r.sport}}
+    </td>
+    <td class="col-sm-2">
+      {{r.disciplina}}
+    </td>
+    <td class="col-sm-2">
+      {{r.pol}}
+    </td>
+  
+    <td class="col-sm-2">
+      {{r.lokacija}}
+
+    </td>
+    <td class="col-sm-2">
+      <a routerLink='/raspored/{{r.id}}'>Zakazi</a>
+      <!-- <button (click)='zakazi(r.id)'>Zakazi</button> -->
+    </td>
+  </tr>
+</ng-container>
+</table>
+
+</div>
+
+
+
+
+<hr>
+
+
+<br />
+
+
+
+<h4 class="text-center">
+  Unesi rezultate utakmica za individualna takmicenja
+</h4>
+<br />
+<div class="row g-5">
+      
+<table class="table  table-bordered text-center">
+  <tr class="col-sm-12"> 
+    <th class="col-sm-2">
+     Id
+    </th>
+    <th class="col-sm-2">
+      Sport
+    </th>
+    <th class="col-sm-2">
+      Disciplina
+    </th>
+    <th class="col-sm-2">
+      Pol
+    </th>
+   
+    <th class="col-sm-2">
+      Lokacija
+    </th>
+    <th class="col-sm-2">
+      Rezultati
+    </th>
+   
+  </tr>
+  <ng-container *ngFor='let r of gotovitermini'>
+
+ 
+  <tr *ngIf='r.vrsta=="i"' class="col-sm-12">
+
+    <td class="col-sm-2">
+      {{r.id}}
+    </td>
+    <td class="col-sm-2">
+      {{r.sport}}
+    </td>
+    <td class="col-sm-2">
+      {{r.disciplina}}
+    </td>
+    <td class="col-sm-2">
+      {{r.pol}}
+    </td>
+  
+    <td class="col-sm-2">
+      {{r.lokacija}}
+
+    </td>
+    <td class="col-sm-2">
+      <a routerLink='/rezultat/{{r.id}}'>Unesi</a>
+    </td>
+  </tr>
+</ng-container>
+</table>
+
+</div>
+
+
+
+
+<hr>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 class="text-center">
+  Zakazi termin za ekipna takmicenja
+</h4>
+<br />
+<div class="row g-5">
+      
+<table class="table  table-bordered text-center">
+  <tr class="col-sm-12">
+    <th class="col-sm-2">
+      Id
+    </th>
+    <th class="col-sm-2">
+      Sport
+    </th>
+   
+    <th class="col-sm-2">
+      Pol
+    </th>
+      <th class="col-sm-2">
+      Lokacija
+    </th>
+    <th class="col-sm-2">
+     
+    </th>
+    <th class="col-sm-2">
+      Zakazivanje
+    </th>
+  
+  </tr>
+  <ng-container *ngFor='let r of takmicenja'>
+
+ 
+  <tr *ngIf='r.vrsta=="e"' class="col-sm-12">
+<td class="col-sm-2">
+      {{r.id}}
+    </td>
+    <td class="col-sm-2">
+      {{r.sport}}
+    </td>
+    
+    <td class="col-sm-2">
+      {{r.pol}}
+    </td>
+    <td class="col-sm-2">
+     {{r.lokacija}}
+    </td>
+    <td class="col-sm-2">
+      
+
+    </td>
+    <td class="col-sm-2">
+      <a routerLink='/raspored/{{r.id}}'>Zakazi</a>
+      <!-- <button (click)='zakazi(r.id)'>Zakazi</button> -->
+    </td>
+  </tr>
+</ng-container>
+</table>
+</div>

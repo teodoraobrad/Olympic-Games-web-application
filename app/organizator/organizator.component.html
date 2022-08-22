@@ -1,0 +1,553 @@
+<header>
+  <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Olimpijada</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+
+
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/pocetna">Pocetna stranica</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/prijava">Prijava</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/promenaLozinke">Promena lozinke</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/registracija">Registracija</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/neregistrovani">Razgledaj</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.olympics.com">Olympics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.gotokyo.org/en/index.html">Tokio</a>
+          </li>
+        </ul>
+
+
+        <form class="d-flex">
+          <!-- <input class="form-control me-2" type="search" placeholder="Pretraga" aria-label="Search"> -->
+          <button class="btn btn-outline-success" (click)='odjava()' routerLink='pocetna'>Odjavi se</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+<ul class="breadcrumb">
+  <li><a routerLink="/pocetna">Pocetna</a></li>
+  <li><a routerLink="/prijava">Prijava</a></li>
+  <li>Organizator</li>
+</ul>
+
+<h4 class="text-center">
+  Dodavanje sporta
+</h4>
+<br />
+<div class="row g-5">
+
+
+  <div class=" col-sm-4">
+
+  </div>
+  <div class="col-sm-4">
+
+
+    <table class="table">
+
+
+      <tr>
+
+        <td>Sport:</td>
+
+        <td><select [(ngModel)]='novisport'>
+
+            <option value="">Svi podrzani sportovi</option>
+            <option *ngFor="let s of sportoviNaziv">{{s.naziv}}</option>
+          </select></td>
+      </tr>
+      <tr>
+        <td>Disciplina:</td>
+        <td><select [(ngModel)]='novadisciplina'>
+            <option value="">Sve podrzane discipline</option>
+            <option *ngFor="let a of disciplineNaziv">{{a.naziv}}</option>
+
+
+          </select></td>
+
+
+
+
+      </tr>
+      <tr>
+        <td>Vrsta:</td>
+        <td><select [(ngModel)]='novavrsta'>
+
+            <option value="">Sve vrste</option>
+            <option value="e">Ekipni</option>
+            <option value="i">Individ.</option>
+          </select></td>
+
+      </tr>
+      <tr>
+        <td>Min:</td>
+        <td><select [(ngModel)]='min'>
+
+            <option value="">Svi min</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select></td>
+
+      </tr>
+      <tr>
+        <td>Max:</td>
+        <td><select [(ngModel)]='max'>
+
+            <option value="">Svi max</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="4">4</option>
+            <option value="2">2</option>
+            <option value="4">4</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+
+
+          </select></td>
+
+      </tr>
+
+      <tr>
+        <td colspan="2"><button (click)='dodajsportdisciplinu()'>Dodaj</button></td>
+      </tr>
+    </table>
+
+  </div>
+  <div class=" col-sm-4">
+
+  </div>
+</div>
+
+
+
+
+
+
+
+<hr>
+<br />
+
+<h4 class="text-center">
+  Dodavanje individualnog takimecnja
+</h4>
+<br />
+<div class="row g-5">
+
+
+  <div class=" col-sm-3">
+
+  </div>
+  <div class="col-sm-6">
+
+
+    <table class="table ">
+
+
+      <tr>
+
+        <td>Sport:</td>
+        <td>
+          <select [(ngModel)]='tsport'>
+
+            <option value="">Izaberite sport</option>
+            <option *ngFor='let s of sportoviNaziv'>{{s.naziv}}</option>
+          </select>
+
+        </td>
+      </tr>
+      <tr>
+        <td>Disciplina:</td>
+        <td>
+          <select [(ngModel)]='tdisciplina'>
+
+            <option value="">Izaberite disciplinu</option>
+            <option *ngFor="let d of disciplineNaziv">{{d.naziv}}</option>
+
+          </select>
+
+        </td>
+
+      </tr>
+      <tr>
+        <td>Format:</td>
+        <td><input type="text" [(ngModel)]='tformat'></td>
+
+      </tr>
+      <tr>
+        <td>Pol:</td>
+        <td><select [(ngModel)]='tpol'>
+
+
+            <option value="m">M</option>
+            <option value="z">Z</option>
+          </select></td>
+
+      </tr>
+     
+      <tr>
+        <td>Datum pocetka:</td>
+        <td><input type="date" [(ngModel)]='tdatump' >
+        </td>
+
+      </tr>
+      <tr>
+        <td>Datum kraja:</td>
+
+        <td><input type="date" [(ngModel)]='tdatumk'>
+        </td>
+      </tr>
+      <tr>
+        <td>Lokacija:</td>
+        <td>
+          <select [(ngModel)]='tlokacija'>
+
+            <option value=""></option>
+            <option *ngFor='let l of lokacije'>{{l.naziv}}</option>
+          </select>
+
+        </td>
+
+      </tr>
+      <tr>
+        <td>Delegat/i:</td>
+        <td>
+          <select multiple [(ngModel)]='tdelegat'>
+
+
+            <option *ngFor='let d of delegati'>{{d.korisnickoime}}</option>
+          </select>
+
+        </td>
+      </tr>
+      <tr>
+        <td>Dostupnosti delegata</td>
+        <td><button (click)='proveriDostupnostDelegata(tdelegat)'>Proveri</button> <div class="greska">{{delegatiporuka}}</div></td>
+      </tr>
+
+
+
+
+      <tr>
+        <td>Sportisti:</td>
+        <td rowspan="2">
+          <select multiple [(ngModel)]='tsportisti'>
+
+
+            <option *ngFor='let d of sportisti'>{{d.imeprezime}}</option>
+          </select>
+
+        </td>
+
+      </tr>
+      <tr>
+        <td><button (click)='dohvatiSportiste()'>Nadji</button></td>
+
+
+      </tr>
+
+
+      <tr>
+        <td colspan="2"><button (click)='dodajTakmicenje()'>Dodaj takmicenje</button></td>
+      </tr>
+    </table>
+
+  </div>
+  <div class="col-sm-3">
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<hr>
+<br />
+
+<h4 class="text-center">
+  Dodavanje ekipnog takimecnja
+</h4>
+<br />
+<div class="row g-5">
+
+
+  <div class=" col-sm-3">
+
+  </div>
+  <div class="col-sm-6">
+
+
+    <table class="table">
+
+
+      <tr>
+
+        <td>Sport:</td>
+        <td>
+          <select [(ngModel)]='tesport'>
+
+            <option value="">Izaberite sport</option>
+            <option *ngFor='let s of sportoviNaziv'>{{s.naziv}}</option>
+          </select>
+
+        </td>
+      </tr>
+      <tr>
+        <td>Disciplina:</td>
+        <td>
+          <select [(ngModel)]='tedisciplina'>
+
+            <option value="">Izaberite disciplinu</option>
+            <option *ngFor="let d of disciplineNaziv">{{d.naziv}}</option>
+
+          </select>
+
+        </td>
+
+      </tr>
+      <tr>
+        <td>Format:</td>
+        <td><input type="text" [(ngModel)]='teformat'></td>
+
+      </tr>
+      <tr>
+        <td>Pol:</td>
+        <td><select [(ngModel)]='tepol'>
+
+
+            <option value="m">M</option>
+            <option value="z">Z</option>
+          </select></td>
+
+      </tr>
+     
+      <tr>
+        <td>Datum pocetka:</td>
+        <td><input type="date" [(ngModel)]='tedatump' >
+        </td>
+
+      </tr>
+      <tr>
+        <td>Datum kraja:</td>
+
+        <td><input type="date" [(ngModel)]='tedatumk'>
+        </td>
+      </tr>
+      <tr>
+        <td>Lokacija:</td>
+        <td>
+          <select [(ngModel)]='telokacija'>
+
+            <option value=""></option>
+            <option *ngFor='let l of lokacije'>{{l.naziv}}</option>
+          </select>
+
+        </td>
+
+      </tr>
+      <tr>
+        <td>Delegat/i:</td>
+        <td>
+          <select multiple [(ngModel)]='tedelegat'>
+
+
+            <option *ngFor='let d of delegati'>{{d.korisnickoime}}</option>
+          </select>
+
+        </td>
+      </tr>
+      <tr>
+        <td>Dostupnosti delegata</td>
+        <td><button (click)='proveriDostupnostDelegata(tedelegat)'>Proveri</button> <div class="greska">{{delegatiporuka}}</div></td>
+      </tr>
+
+
+
+
+      <tr>
+        <td>Ekipe:</td>
+        <td rowspan="2">
+          <select multiple [(ngModel)]='tekipe'>
+
+
+            <option *ngFor='let d of ekipe'>{{d.zemlja}}</option>
+          </select>
+
+        </td>
+
+      </tr>
+      <tr>
+        <td><button (click)='dohvatiEkipe()'>Nadji</button></td>
+
+
+      </tr>
+
+
+      <tr>
+        <td colspan="2"><button (click)='dodajTakmicenjeE()'>Dodaj takmicenje</button></td>
+      </tr>
+    </table>
+
+  </div>
+  <div class=" col-sm-3">
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr>
+<br />
+
+
+<h3 class="text-center" id="rekordi">
+  Rekordi u individualnim sportovima na olimpijskim igrama
+</h3><br />
+<table class="table  table-bordered text-center">
+  <tr class="col-sm-12">
+    <th class="col-sm-2">
+      Godina i mesto odrzavanja
+    </th>
+    <th class="col-sm-2">
+      Sport
+    </th>
+    <th class="col-sm-2">
+      Disciplina
+    </th>
+    <th class="col-sm-2">
+      Takmicar
+    </th>
+    <th class="col-sm-2">
+      Zemlja
+    </th>
+    <th class="col-sm-2">
+      Rekord
+    </th>
+  </tr>
+  <tr *ngFor="let r of rekordi | paginate:{itemsPerPage:10, currentPage:page, totalLength:total, id:'rekordi'}"
+    class="col-sm-12">
+
+    <td class="col-sm-2">
+      {{r.godinamesto}}
+    </td>
+    <td class="col-sm-4">
+      {{r.sport}}
+    </td>
+    <td class="col-sm-1">
+      {{r.disciplina}}
+    </td>
+    <td class="col-sm-1">
+      {{r.takmicar}}
+    </td>
+    <td class="col-sm-1">
+      {{r.zemlja}}
+
+    </td>
+    <td class="col-sm-3">
+      {{r.rekord}}
+    </td>
+  </tr>
+</table>
+<pagination-controls id="rekordi" (pageChange)="page =$event" class="pagination justify-content-center">
+</pagination-controls>
+<br />
+
+
+<hr>
+
+
+<br />
+
+
+
+<h3 class="text-center" id="dodavanje">
+  Zahtevi za registracijom
+</h3><br />
+<table class="table  table-bordered text-center">
+  <tr class="col-sm-12">
+    <th class="col-sm-2">
+      Korisnicko ime
+    </th>
+    <th class="col-sm-2">
+      Ime
+    </th>
+    <th class="col-sm-2">
+      Prezime
+    </th>
+    <th class="col-sm-2">
+      Zemlja
+    </th>
+    <th class="col-sm-2">
+      Tip naloga
+    </th>
+    <th class="col-sm-2">
+      Odobri
+    </th>
+  </tr>
+  <tr *ngFor='let r of korisniciZahtev' class="col-sm-12">
+
+    <td class="col-sm-2">
+      {{r.korisnickoime}}
+    </td>
+    <td class="col-sm-2">
+      {{r.ime}}
+    </td>
+    <td class="col-sm-2">
+      {{r.prezime}}
+    </td>
+    <td class="col-sm-2">
+      {{r.nacionalnost}}
+    </td>
+    <td class="col-sm-2">
+      {{r.tip}}
+
+    </td>
+    <td class="col-sm-2">
+      <button (click)='odobri(r.korisnickoime,r.nacionalnost,r.tip)'>Odobri</button>
+    </td>
+  </tr>
+</table>
+<br />
+
+
+<hr>
+
+
+<br />

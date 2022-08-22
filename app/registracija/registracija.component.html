@@ -1,0 +1,337 @@
+<header>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Olimpijada</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/pocetna">Pocetna stranica</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/prijava">Prijava</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/promenaLozinke">Promena lozinke</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" routerLink="/registracija">Registracija</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/neregistrovani">Razgledaj</a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.olympics.com">Olympics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.gotokyo.org/en/index.html">Tokio</a>
+                    </li>
+                </ul>
+
+
+                <form class="d-flex">
+                    <!-- <input class="form-control me-2" type="search" placeholder="Pretraga" aria-label="Search"> -->
+                    <button class="btn btn-outline-success" (click)='odjava()' routerLink='pocetna'>Odjavi se</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+</header>
+
+
+<div class="bg-light">
+
+    <div class="container">
+
+        <div class="py-5 text-center">
+            <img class="d-block mx-auto mb-4" src="../../assets/Olympic_Logo.png" alt="" width="122" height="57">
+            <h2>Registracija</h2>
+            <p class="lead">Popunjavanjem ove forme saljete zahtev organizatoru za pristup sistemu. <br />Nakon njegove
+                potvrde zahteva bice vam omogucen rad.</p>
+        </div>
+
+        <div class="row g-5">
+            <div class=" col-md-2 col-lg-2">
+
+            </div>
+            <div class=" col-md-7 col-lg-8">
+                <h4 class="mb-3">Podaci korisnika</h4>
+                <form class="needs-validation" novalidate>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <label for="ime" class="form-label">Ime</label>
+                            <input type="text" class="form-control" id="ime" name='ime' [(ngModel)]='ime' >
+                            <div class="invalid-feedback">
+                                Ime je obavezno.
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <label for="prezime" class="form-label">Prezime</label>
+                            <input type="text" class="form-control" id="prezime" name='prezime' [(ngModel)]='prezime'
+                                >
+                            <div class="invalid-feedback">
+                                Prezime je obavezno.
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <label for="korisnickoime" class="form-label">Korisnicko ime</label>
+                            <div class="input-group has-validation">
+                                <input type="text" class="form-control" id="korisnickoime" name='korisnickoime'
+                                    [(ngModel)]='korisnickoime' >
+                                <div class="invalid-feedback">
+                                    Korisnicko ime je obavezno.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <label for="lozinka" class="form-label">Lozinka</label>
+                            <div class="input-group has-validation">
+                                <input type="password" class="form-control" id="lozinka" name='lozinka'
+                                    [(ngModel)]='lozinka'  >
+                                <div class="invalid-feedback">
+                                    Lozinka je obavezna.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <label for="lozinkap" class="form-label">Ponovite lozinku</label>
+                            <div class="input-group has-validation">
+                                <!-- <span class="input-group-text">@</span> -->
+                                <input type="password" class="form-control" id="lozinkap" name='lozinkap'
+                                    [(ngModel)]='lozinkap'  >
+                                <div class="invalid-feedback">
+                                    Lozinke se moraju poklapati.
+                                </div>
+                            </div>
+                        </div>
+                        
+
+
+
+                        <div class="col-md-13">
+                            <label for="country" class="form-label">Zemlja</label>
+                            <select class="form-select" id="country" name='nacionalnost' [(ngModel)]='nacionalnost'
+                                >
+                                <option value="">Izaberite...</option>
+                                <option *ngFor='let z of zemlje'>{{z.naziv}}</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Izaberite zemlju koju predstavljate.
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <label for="email" class="form-label">Email </label>
+                            <input type="email" class="form-control" id="email" name='email'
+                                placeholder="username@email.com" [(ngModel)]='email'>
+                            <div class="invalid-feedback">
+                                Unesite ispravnu email adresu.
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+                    <hr class="my-4">
+
+                    <h5 class="mb-3">Tip korisnika</h5>
+
+                    <div class="my-3">
+                        <div class="form-check">
+                            <input id="vodja" value="vodja" name="tip" type="radio" class="form-check-input"
+                                [(ngModel)]='tip' checked required>
+                            <label class="form-check-label" for="vodja">Vodja</label>
+                        </div>
+                            <div class="form-check">
+                            <input id="delegat" value="delegat" name="tip" type="radio" class="form-check-input"
+                                required [(ngModel)]='tip'>
+                            <label class="form-check-label" for="delegat">Delegat</label>
+                        </div>
+
+                    </div>
+                    <!-- 
+                    <hr class="my-4">
+
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="uslov" name= 'agree'  [(ngModel)]='agree'  required>
+                        <label class="form-check-label" for="uslov">Slazem se sa uslovima</label>
+                        <div class="invalid-feedback">
+                            Potvrdite da se slazete sa uslovima.
+                        </div>
+
+                    </div>
+ -->
+
+
+
+
+                    <hr class="my-4">
+ <div class="greska" *ngIf='poruka'>
+                    {{poruka}}
+                </div>
+                    <button class="w-100 btn btn-primary btn-lg" type="submit" (click)='registruj()'>Posalji
+                        zahtev</button>
+                </form>
+               
+
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- 
+<div class="bg-light">
+
+    <div class="container">
+
+        <div class="py-5 text-center">
+            <img class="d-block mx-auto mb-4" src="../../assets/Olympic_Logo.png" alt="" width="122" height="57">
+            <h2>Registracija</h2>
+            <p class="lead">Popunjavanjem ove forme saljete zahtev organizatoru za pristup sistemu. <br />Nakon njegove
+                potvrde zahteva bice vam omogucen rad.</p>
+        </div>
+
+        <div class="row g-5">
+            <div class=" col-md-2 col-lg-2">
+
+            </div>
+            <div class=" col-md-7 col-lg-8">
+                <h4 class="mb-3">Podaci korisnika</h4>
+                <form class="needs-validation" novalidate>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <label for="ime" class="form-label">Ime</label>
+                            <input type="text" class="form-control" id="ime" name='ime' [(ngModel)]='ime' required>
+                            <div class="invalid-feedback">
+                                Ime je obavezno.
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <label for="prezime" class="form-label">Prezime</label>
+                            <input type="text" class="form-control" id="prezime" name='prezime' [(ngModel)]='prezime'
+                                required>
+                            <div class="invalid-feedback">
+                                Prezime je obavezno.
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <label for="korisnickoime" class="form-label">Korisnicko ime</label>
+                            <div class="input-group has-validation">
+                                <input type="text" class="form-control" id="korisnickoime" name='korisnickoime'
+                                    [(ngModel)]='korisnickoime' required>
+                                <div class="invalid-feedback">
+                                    Korisnicko ime je obavezno.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <label for="lozinka" class="form-label">Lozinka</label>
+                            <div class="input-group has-validation">
+                                <input type="password" class="form-control" id="lozinka" name='lozinka'
+                                    [(ngModel)]='lozinka' required >
+                                <div class="invalid-feedback">
+                                    Lozinka je obavezna.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <label for="lozinkap" class="form-label">Ponovite lozinku</label>
+                            <div class="input-group has-validation">
+                               
+                                <input type="password" class="form-control" id="lozinkap" name='lozinkap'
+                                    [(ngModel)]='lozinkap' required >
+                                <div class="invalid-feedback">
+                                    Lozinke se moraju poklapati.
+                                </div>
+                            </div>
+                        </div>
+                        
+
+
+
+                        <div class="col-md-13">
+                            <label for="country" class="form-label">Zemlja</label>
+                            <select class="form-select" id="country" name='nacionalnost' [(ngModel)]='nacionalnost'
+                                required>
+                                <option value="">Izaberite...</option>
+                                <option *ngFor='let z of zemlje'>{{z.naziv}}</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Izaberite zemlju koju predstavljate.
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <label for="email" class="form-label">Email </label>
+                            <input type="email" class="form-control" id="email" name='email'
+                                placeholder="you@example.com" required [(ngModel)]='email'>
+                            <div class="invalid-feedback">
+                                Unesite ispravnu email adresu.
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+                    <hr class="my-4">
+
+                    <h5 class="mb-3">Tip korisnika</h5>
+
+                    <div class="my-3">
+                        <div class="form-check">
+                            <input id="vodja" value="vodja" name="tip" type="radio" class="form-check-input"
+                                [(ngModel)]='tip' checked required>
+                            <label class="form-check-label" for="vodja">Vodja</label>
+                
+                            <input id="delegat" value="delegat" name="tip" type="radio" class="form-check-input"
+                                required [(ngModel)]='tip'>
+                            <label class="form-check-label" for="delegat">Delegat</label>
+                        </div>
+
+                    </div>
+                     
+                    <hr class="my-4">
+
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="uslov" name= 'agree'  [(ngModel)]='agree'  required>
+                        <label class="form-check-label" for="uslov">Slazem se sa uslovima</label>
+                        <div class="invalid-feedback">
+                            Potvrdite da se slazete sa uslovima.
+                        </div>
+
+                    </div>
+
+
+
+
+
+                    <hr class="my-4">
+
+                    <button class="w-100 btn btn-primary btn-lg" type="submit" (click)='registruj()'>Posalji
+                        zahtev</button>
+                </form>
+                <div class="greska" *ngIf='poruka'>
+                    {{poruka}}
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+</div> -->
+
