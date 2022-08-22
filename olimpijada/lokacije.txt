@@ -1,0 +1,68 @@
+
+{
+    "naziv" : "Dvorana Tokio"
+}
+
+
+{
+    "naziv" : "Dvorana Saporo"
+}
+
+
+{
+    "naziv" : "Olimpijski stadion"
+}
+
+
+{
+    "naziv" : "Ariake Coliseum teniski park"
+}
+
+
+{
+    "naziv" : "Nacionalni stadion Yoyogi"
+}
+
+
+{
+    "naziv" : "Olimpijska BMX staza"
+}
+
+
+{
+    "naziv" : "Vodeni park Odaiba"
+}
+
+
+{
+    "naziv" : "Streliste Asaka"
+}
+
+
+{
+    "naziv" : "Streliste Dream Island"
+}
+
+
+{
+    "naziv" : "Olimpijski plivacki centar"
+}
+
+
+{
+    "naziv" : "Park Yumenoshima"
+}
+
+
+{
+    "naziv" : "Medjunarodni plivacki centar Tokyo Tatsumi"
+}
+
+{
+    "naziv" : "Tokio Aquatics Center"
+}
+
+
+{
+    "naziv" : "Saitama Super Arena"
+}

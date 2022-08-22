@@ -1,0 +1,215 @@
+
+{
+    "naziv" : "Kosarka",
+    "tip" : "s"
+}
+
+
+{
+    "naziv" : "Atletika",
+    "tip" : "s"
+}
+
+
+{
+    "naziv" : "Tenis",
+    "tip" : "s"
+}
+
+
+{
+   "naziv" : "singl",
+    "tip" : "d"
+}
+
+
+{
+    "naziv" : "dubl",
+    "tip" : "d"
+}
+
+
+{
+     "naziv" : "Odbojka",
+    "tip" : "s"
+}
+
+
+{
+    "naziv" : "Vaterpolo",
+    "tip" : "s"
+}
+
+
+{
+     "naziv" : "Biciklizam",
+    "tip" : "s"
+}
+
+
+{
+    "naziv" : "Plivanje",
+    "tip" : "s"
+}
+
+
+{
+    "naziv" : "Streljastvo",
+    "tip" : "s"
+}
+
+
+{
+    "naziv" : "100 metara trcanje",
+    "tip" : "d"
+}
+
+
+{
+     "naziv" : "stafetno trcanje 100",
+    "tip" : "d"
+}
+
+
+{
+    "naziv" : "200 metara trcanje",
+    "tip" : "d"
+}
+
+
+{
+    "naziv" : "400 metara trcanje",
+    "tip" : "d"
+}
+
+
+{
+     "naziv" : "stafetno trcanje 400",
+    "tip" : "d"
+}
+
+
+{
+    "naziv" : "800 metara trcanje",
+    "tip" : "d"
+}
+
+
+{
+    "naziv" : "5000 metara trcanje",
+    "tip" : "d"
+}
+
+
+{
+    "naziv" : "10000 metara trcanje",
+    "tip" : "d"
+}
+
+
+{
+    "naziv" : "skok u vis",
+    "tip" : "d"
+}
+
+
+{
+    "naziv" : "skok u dalj",
+    "tip" : "d"
+}
+
+
+{
+    "naziv" : "troskok",
+    "tip" : "d"
+}
+
+
+{
+   "naziv" : "skok s motkom",
+    "tip" : "d"
+}
+
+
+{
+   "naziv" : "bacanje kugle",
+    "tip" : "d"
+}
+
+
+{
+    "naziv" : "bacanje diska",
+    "tip" : "d"
+}
+
+
+{
+    "naziv" : "bacanje koplja",
+    "tip" : "d"
+}
+
+
+{
+    "naziv" : "bacanje kladiva",
+    "tip" : "d"
+}
+
+
+{
+    "naziv" : "maraton",
+    "tip" : "d"
+}
+
+
+{
+    "naziv" : "20km brzo hodanje",
+    "tip" : "d"
+}
+
+
+{
+    "naziv" : "50km brzo hodanje",
+    "tip" : "d"
+}
+
+
+{
+     "naziv" : "drumska trka 225km",
+    "tip" : "d"
+}
+
+
+{
+    "naziv" : "100m leptir",
+    "tip" : "d"
+}
+
+
+{
+    "naziv" : "200m slobodno",
+    "tip" : "d"
+}
+
+
+{
+     "naziv" : "50m trostav",
+    "tip" : "d"
+}
+
+
+{
+    "naziv" : "10m vazdusna puska",
+    "tip" : "d"
+}
+
+
+{
+    "naziv" : "25m malokalib. pistolj",
+    "tip" : "d"
+}
+
+
+{
+    "naziv" : "10m vazdusni pistolj",
+    "tip" : "d"
+}

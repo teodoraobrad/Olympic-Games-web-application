@@ -1,0 +1,78 @@
+
+{
+    "sport" : "Kosarka",
+    "disciplina" : []
+}
+
+
+{
+    "sport" : "Odbojka",
+    "disciplina" : []
+}
+
+
+{
+   "sport" : "Vaterpolo",
+    "disciplina" : []
+}
+
+
+{
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "100 metara trcanje", 
+        "maraton", 
+        "200 metara trcanje", 
+        "400 metara trcanje", 
+        "800 metara trcanje", 
+        "5000 metara trcanje", 
+        "10000 metara trcanje", 
+        "skok u vis", 
+        "skok u dalj", 
+        "troskok", 
+        "skok s motkom", 
+        "bacanje kugle", 
+        "bacanje diska", 
+        "bacanje kladiva", 
+        "bacanje koplja", 
+        "maraton", 
+        "20km brzo hodanje", 
+        "50km brzo hodanje"
+    ]
+}
+
+{
+    "sport" : "Biciklizam",
+    "disciplina" : [ 
+        "drumska staza 225km"
+    ]
+}
+
+
+{
+     "sport" : "Plivanje",
+    "disciplina" : [ 
+        "100m leptir", 
+        "200m slobodno"
+    ]
+}
+
+
+{
+    "sport" : "Streljastvo",
+    "disciplina" : [ 
+        "50m trostav", 
+        "10m vazdusna puska", 
+        "25m malokalib. pistolj", 
+        "10m vazdusni pistolj"
+    ]
+}
+
+
+{
+    "sport" : "Tenis",
+    "disciplina" : [ 
+        "singl", 
+        "dubll"
+    ]
+}

@@ -1,0 +1,33 @@
+
+{
+    "sportisti" : [ 
+        "k1", 
+        "k2", 
+        "k3", 
+        "v2", 
+        "v1", 
+        "v3", 
+        "v4"
+    ],
+    "zemlja" : "Hrvatska",
+    "sport" : "Vaterpolo",
+    "disciplina" : "",
+    "pol" : "m",
+    "medalja" : 0
+}
+{
+    "sportisti" : [ 
+        "Andrija Prlainovic", 
+        "Stefan Mitrovic", 
+        "Nikola Dedovic", 
+        "Gojko Pijetlovic", 
+        "Filip Filipovic", 
+        "Dusko Pijetlovic"
+    ],
+    "zemlja" : "Srbija",
+    "sport" : "Vaterpolo",
+    "disciplina" : "",
+    "pol" : "m",
+    "medalja" : 0
+   
+}

@@ -1,0 +1,207 @@
+
+{
+    "godinamesto" : "2020. Tokio",
+    "sport" : "Atletika",
+    "disciplina" : "400 metara trcanje",
+    "takmicar" : "Karsten Vorholm",
+    "zemlja" : "Norveska",
+    "rekord" : "46,70"
+}
+
+
+{
+    "godinamesto" : "2020. Tokio",
+    "sport" : "Atletika",
+    "disciplina" : "troskok",
+    "takmicar" : "Julimar Rohas",
+    "zemlja" : "Venecuela",
+    "rekord" : "15,67"
+}
+
+
+{
+    "godinamesto" : "2020. Tokio",
+    "sport" : "Atletika",
+    "disciplina" : "100 metara trcanje",
+    "takmicar" : "Ilejn Tompson",
+    "zemlja" : "Jamajka",
+    "rekord" : "10,61"
+}
+
+
+{
+    "godinamesto" : "2012. London",
+    "sport" : "Atletika",
+    "disciplina" : "100 metara trcanje",
+    "takmicar" : "Jusejn Bolt",
+    "zemlja" : "Jamajka",
+    "rekord" : "9,63"
+}
+
+
+{
+    "godinamesto" : "2012. London",
+    "sport" : "Atletika",
+    "disciplina" : "200 metara trcanje",
+    "takmicar" : "Jusejn Bolt",
+    "zemlja" : "Jamajka",
+    "rekord" : "19,30"
+}
+
+
+{
+    "godinamesto" : "2012. London",
+    "sport" : "Atletika",
+    "disciplina" : "800 metara trcanje",
+    "takmicar" : "Dejvid Rudisa",
+    "zemlja" : "Kenija",
+    "rekord" : "1:40,91"
+}
+
+
+{
+    "godinamesto" : "2008. Peking",
+    "sport" : "Atletika",
+    "disciplina" : "5000 metara trcanje",
+    "takmicar" : "Kenisa Bekele",
+    "zemlja" : "Etiopija",
+    "rekord" : "12:57,82"
+}
+
+
+{
+     "godinamesto" : "2008. Peking",
+    "sport" : "Atletika",
+    "disciplina" : "10000 metara trcanje",
+    "takmicar" : "Kenisa Bekele",
+    "zemlja" : "Etiopija",
+    "rekord" : "27:01,17"
+}
+
+
+{
+    "godinamesto" : "2008. Peking",
+    "sport" : "Atletika",
+    "disciplina" : "maraton",
+    "takmicar" : "Samjuel Kamau Banjiru",
+    "zemlja" : "Kenija",
+    "rekord" : "2:06,32"
+}
+
+
+{
+    "godinamesto" : "1996. Atlanta",
+    "sport" : "Atletika",
+    "disciplina" : "skok u vis",
+    "takmicar" : "Charles Ostin",
+    "zemlja" : "SAD",
+    "rekord" : "2,39"
+}
+
+{
+    "godinamesto" : "1996. Rio de Janerio",
+    "sport" : "Atletika",
+    "disciplina" : "skok motkom",
+    "takmicar" : "Tiago Braz de Silva",
+    "zemlja" : "Brazil",
+    "rekord" : "6,03"
+}
+
+
+{
+    "godinamesto" : "1968. Meksiko Siti",
+    "sport" : "Atletika",
+    "disciplina" : "skok u dalj",
+    "takmicar" : "Bob Bimon",
+    "zemlja" : "SAD",
+    "rekord" : "8,90"
+}
+
+{
+   "godinamesto" : "1996. Atlanta",
+    "sport" : "Atletika",
+    "disciplina" : "troskok",
+    "takmicar" : "Keni Harison",
+    "zemlja" : "SAD",
+    "rekord" : "18,09"
+}
+
+
+{
+    "godinamesto" : "1988. Seul",
+    "sport" : "Atletika",
+    "disciplina" : "bacanje kugle",
+    "takmicar" : "Ulf Timerman",
+    "zemlja" : "Istocna Nemacka",
+    "rekord" : "22,47"
+}
+
+
+{
+    "godinamesto" : "2004. Atina",
+    "sport" : "Atletika",
+    "disciplina" : "bacanje diska",
+    "takmicar" : "Virgilijus Alekna",
+    "zemlja" : "Litvanija",
+    "rekord" : "69,89"
+}
+
+
+{
+    "godinamesto" : "1988. Seul",
+    "sport" : "Atletika",
+    "disciplina" : "bacanje kladiva",
+    "takmicar" : "Sergej Litvinov",
+    "zemlja" : "Sovjetski Savez",
+    "rekord" : "84,80"
+}
+
+
+{
+    "godinamesto" : "2008. Peking",
+    "sport" : "Atletika",
+    "disciplina" : "bacanje koplja",
+    "takmicar" : "Andreas Torkildsen",
+    "zemlja" : "Norveska",
+    "rekord" : "22,47"
+}
+
+
+{
+   "godinamesto" : "2012. London",
+    "sport" : "Atletika",
+    "disciplina" : "20km hodanje",
+    "takmicar" : "Chen Ding",
+    "zemlja" : "Kina",
+    "rekord" : "1:18,46"
+}
+
+
+{
+     "godinamesto" : "2012. London",
+    "sport" : "Atletika",
+    "disciplina" : "50km hodanje",
+    "takmicar" : "Sergej Kirdjapkin",
+    "zemlja" : "Rusija",
+    "rekord" : "3:35,59"
+}
+
+
+{
+    "godinamesto" : "2008. Peking",
+    "sport" : "Plivanje",
+    "disciplina" : "100m leptir",
+    "takmicar" : "Majkl Phelps",
+    "zemlja" : "SAD",
+    "rekord" : "50,58"
+}
+
+
+{
+    "godinamesto" : "2008. Peking",
+    "sport" : "Plivanje",
+    "disciplina" : "200m slobodno",
+    "takmicar" : "Majkl Phelps",
+    "zemlja" : "SAD",
+    "rekord" : "1:42,96"
+}

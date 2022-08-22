@@ -1,0 +1,267 @@
+
+{
+    "sport" : "Kosarka",
+    "disciplina" : "",
+    "vrsta" : "e",
+    "min" : 5,
+    "max" : 12
+}
+
+
+{
+    "sport" : "Odbojka",
+    "disciplina" : "",
+    "vrsta" : "e",
+    "min" : 6,
+    "max" : 12
+}
+
+
+{
+    "sport" : "Vaterpolo",
+    "disciplina" : "",
+    "vrsta" : "e",
+    "min" : 6,
+    "max" : 13
+}
+
+
+{
+    "sport" : "Atletika",
+    "disciplina" : "stafetno trcanje 100",
+    "vrsta" : "e",
+    "min" : 4,
+    "max" : 4
+}
+
+
+{
+    "sport" : "Atletika",
+    "disciplina" : "200 metara trcanje",
+    "vrsta" : "i",
+    "min" : 1,
+    "max" : 1
+}
+
+
+{
+    "sport" : "Atletika",
+    "disciplina" : "400 metara trcanje",
+    "vrsta" : "i",
+    "min" : 1,
+    "max" : 1
+}
+
+
+{
+     "sport" : "Atletika",
+    "disciplina" : "stafetno trcanje 400",
+    "vrsta" : "e",
+    "min" : 4,
+    "max" : 4
+}
+
+
+{
+    "sport" : "Atletika",
+    "disciplina" : "800 metara trcanje",
+    "vrsta" : "i",
+    "min" : 1,
+    "max" : 1
+}
+
+
+{
+    "sport" : "Atletika",
+    "disciplina" : "5000 metara trcanje",
+    "vrsta" : "i",
+    "min" : 1,
+    "max" : 1
+}
+
+
+{
+    "sport" : "Atletika",
+    "disciplina" : "10000 metara trcanje",
+    "vrsta" : "i",
+    "min" : 1,
+    "max" : 1
+}
+
+{
+    "sport" : "Atletika",
+    "disciplina" : "skok u vis",
+    "vrsta" : "i",
+    "min" : 1,
+    "max" : 1
+}
+
+
+{
+    "sport" : "Atletika",
+    "disciplina" : "skok u dalj",
+    "vrsta" : "i",
+    "min" : 1,
+    "max" : 1
+}
+
+
+{
+    "sport" : "Atletika",
+    "disciplina" : "troskok",
+    "vrsta" : "i",
+    "min" : 1,
+    "max" : 1
+}
+
+
+{
+    "sport" : "Atletika",
+    "disciplina" : "skok s motkom",
+    "vrsta" : "i",
+    "min" : 1,
+    "max" : 1
+}
+
+
+{
+     "sport" : "Atletika",
+    "disciplina" : "bacanje kugle",
+    "vrsta" : "i",
+    "min" : 1,
+    "max" : 1
+}
+
+
+{
+    "sport" : "Atletika",
+    "disciplina" : "bacanje diska",
+    "vrsta" : "i",
+    "min" : 1,
+    "max" : 1
+}
+
+
+{
+    "sport" : "Atletika",
+    "disciplina" : "bacanje kladiva",
+    "vrsta" : "i",
+    "min" : 1,
+    "max" : 1
+}
+
+
+{
+    "sport" : "Atletika",
+    "disciplina" : "bacanje koplja",
+    "vrsta" : "i",
+    "min" : 1,
+    "max" : 1
+}
+
+
+{
+    "sport" : "Atletika",
+    "disciplina" : "maraton",
+    "vrsta" : "i",
+    "min" : 1,
+    "max" : 1
+}
+
+
+{
+    "sport" : "Atletika",
+    "disciplina" : "20km brzo hodanje",
+    "vrsta" : "i",
+    "min" : 1,
+    "max" : 1
+}
+
+
+{
+    "sport" : "Atletika",
+    "disciplina" : "50km brzo hodanje",
+    "vrsta" : "i",
+    "min" : 1,
+    "max" : 1
+}
+
+{
+    "sport" : "Biciklizam",
+    "disciplina" : "drumska trka 225km",
+    "vrsta" : "i",
+    "min" : 1,
+    "max" : 1
+}
+
+
+{
+    "sport" : "Plivanje",
+    "disciplina" : "100m leptir",
+    "vrsta" : "i",
+    "min" : 1,
+    "max" : 1
+}
+
+
+{
+    "sport" : "Plivanje",
+    "disciplina" : "200m slobodno",
+    "vrsta" : "i",
+    "min" : 1,
+    "max" : 1
+}
+
+
+{
+    "sport" : "Streljastvo",
+    "disciplina" : "50m trostav",
+    "vrsta" : "i",
+    "min" : 1,
+    "max" : 1
+}
+
+
+{
+    "sport" : "Streljastvo",
+    "disciplina" : "10m vazdusna puska",
+    "vrsta" : "i",
+    "min" : 1,
+    "max" : 1
+}
+
+
+{
+    "sport" : "Streljastvo",
+    "disciplina" : "25m malokalib. pistolj",
+    "vrsta" : "i",
+    "min" : 1,
+    "max" : 1
+}
+
+
+{
+    "sport" : "Streljastvo",
+    "disciplina" : "10m vazdusni pistolj",
+    "vrsta" : "i",
+    "min" : 1,
+    "max" : 1
+}
+
+
+{
+    "sport" : "Tenis",
+    "disciplina" : "dubl",
+    "vrsta" : "e",
+    "min" : 2,
+    "max" : 2
+}
+
+
+{
+    "sport" : "Tenis",
+    "disciplina" : "singl",
+    "vrsta" : "i",
+    "min" : 1,
+    "max" : 1
+}

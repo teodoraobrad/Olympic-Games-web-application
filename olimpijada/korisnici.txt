@@ -1,0 +1,196 @@
+
+{
+    "korisnickoime" : "teodora",
+    "lozinka" : "teodora123",
+    "ime" : "Teodora",
+    "prezime" : "Obradovic",
+    "nacionalnost" : "Srbija",
+    "email" : "teodora@gmail.com",
+    "tip" : "delegat",
+    "zahtev" : true
+}
+
+
+{
+    "korisnickoime" : "pera",
+    "lozinka" : "pera123",
+    "ime" : "Petar",
+    "prezime" : "Petrovic",
+    "nacionalnost" : "Srbija",
+    "email" : "pera@gmail.com",
+    "tip" : "delegat",
+    "zahtev" : true
+}
+
+
+{
+    "korisnickoime" : "admin",
+    "lozinka" : "admin123",
+    "ime" : "Organizator",
+    "prezime" : "Organizatorovic",
+    "nacionalnost" : "Japan",
+    "email" : "admin@gmail.com",
+    "tip" : "organizator",
+    "zahtev" : true
+}
+
+
+{
+    "korisnickoime" : "maja",
+    "lozinka" : "maja123",
+    "ime" : "Maja",
+    "prezime" : "Majic",
+    "nacionalnost" : "Hrvatska",
+    "email" : "maja@gmail.com",
+    "tip" : "vodja",
+    "zahtev" : false
+}
+
+
+{
+   "korisnickoime" : "greska",
+    "lozinka" : "Aaaa22!!!",
+    "ime" : "Teodora",
+    "prezime" : "Obradovic",
+    "nacionalnost" : "Srbija",
+    "email" : "teodora@gmail.com",
+    "tip" : "",
+    "zahtev" : false
+}
+
+
+{
+    "korisnickoime" : "greskica",
+    "lozinka" : "Aaaa11!!",
+    "ime" : "Katarina",
+    "prezime" : "Obradovic",
+    "nacionalnost" : "Kina",
+    "email" : "katarina@gmail.com",
+    "tip" : "delegat",
+    "zahtev" : true,
+    "__v" : 0
+}
+
+
+{
+    "korisnickoime" : "ela",
+    "lozinka" : "ela123",
+    "ime" : "Ela",
+    "prezime" : "Elic",
+    "nacionalnost" : "Hrvatska",
+    "email" : "ela@gmail.com",
+    "tip" : "vodja",
+    "zahtev" : false
+}
+
+
+{
+    "korisnickoime" : "jane",
+    "lozinka" : "jane123",
+    "ime" : "Jane",
+    "prezime" : "Janex",
+    "nacionalnost" : "SAD",
+    "email" : "jane@gmail.com",
+    "tip" : "vodja",
+    "zahtev" : false
+}
+
+
+{
+    "korisnickoime" : "mariodante",
+    "lozinka" : "Mario!!123",
+    "ime" : "Mario",
+    "prezime" : "Dante",
+    "nacionalnost" : "Spanija",
+    "email" : "mario@gmail.com",
+    "tip" : "vodja",
+    "zahtev" : false,
+    "__v" : 0
+}
+
+
+{
+    "korisnickoime" : "gepard",
+    "lozinka" : "gepard123",
+    "ime" : "Bread",
+    "prezime" : "Booker",
+    "nacionalnost" : "SAD",
+    "email" : "gepard@gmail.com",
+    "tip" : "delegat",
+    "zahtev" : false
+}
+
+{
+    "korisnickoime" : "leptir",
+    "lozinka" : "leptir123",
+    "ime" : "Nice",
+    "prezime" : "Fly",
+    "nacionalnost" : "Velika Britanija",
+    "email" : "leptir@gmail.com",
+    "tip" : "vodja",
+    "zahtev" : false
+}
+
+
+{
+    "korisnickoime" : "loren",
+    "lozinka" : "loren123",
+    "ime" : "Loren",
+    "prezime" : "Loren",
+    "nacionalnost" : "SAD",
+    "email" : "loren@gmail.com",
+    "tip" : "vodja",
+    "zahtev" : false
+}
+
+
+{
+    "korisnickoime" : "nick",
+    "lozinka" : "nick123",
+    "ime" : "Nick",
+    "prezime" : "Jo",
+    "nacionalnost" : "SAD",
+    "email" : "nick@gmail.com",
+    "tip" : "delegat",
+    "zahtev" : false
+}
+{
+    "korisnickoime" : "dimitrij",
+    "lozinka" : "dimitrij123",
+    "ime" : "Dimitrij",
+    "prezime" : "Rus",
+    "nacionalnost" : "Rusija",
+    "email" : "dimitrij@gmail.com",
+    "tip" : "vodja",
+    "zahtev" : false
+}
+{
+   "korisnickoime" : "elena",
+    "lozinka" : "elena123",
+    "ime" : "Elena",
+    "prezime" : "Elenovic",
+    "nacionalnost" : "Rusija",
+    "email" : "elena@gmail.com",
+    "tip" : "delegat",
+    "zahtev" : false
+}
+{
+    "korisnickoime" : "mihail",
+    "lozinka" : "mihail123",
+    "ime" : "Mihail",
+    "prezime" : "Movoc",
+    "nacionalnost" : "Rusija",
+    "email" : "mihail@gmail.com",
+    "tip" : "vodja",
+    "zahtev" : false
+}
+{
+   "korisnickoime" : "viktor",
+    "lozinka" : "viktor123",
+    "ime" : "Viktor",
+    "prezime" : "Virozi",
+    "nacionalnost" : "Rusija",
+    "email" : "viktor@gmail.com",
+    "tip" : "delegat",
+    "zahtev" : false
+}

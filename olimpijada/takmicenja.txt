@@ -1,0 +1,13 @@
+{
+    "sport" : "Tenis",
+    "disciplina" : "dubl",
+    "format" : "",
+    "pol" : "m",
+    "vrsta" : "e",
+    "datumpocetka" : ISODate("2020-08-22T14:56:59.301Z"),
+    "datumkraja" : ISODate("2020-08-26T14:56:59.301Z"),
+    "lokacija" : "Dvorana Saporo",
+    "delegat" : [],
+    "sportisti" : [],
+"id":1
+}

@@ -1,0 +1,1384 @@
+
+{
+    "imeprezime" : "Novak Djokovic",
+    "zemlja" : "Srbija",
+    "sport" : "Tenis",
+    "disciplina" : [ 
+        "singl", 
+        "dubl"
+    ],
+    "pol" : "m",
+    "medalja" : 0
+}
+
+
+{
+     "imeprezime" : "Karsten Vorholm",
+    "zemlja" : "Norveska",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "400 metara trcanje"
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Lamon Marsel Jacobs",
+    "zemlja" : "Italija",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "100 metara trcanje"
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Fred Kerlej",
+    "zemlja" : "SAD",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "100 metara trcanje"
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Andre de Gras",
+    "zemlja" : "Kanada",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "100 metara trcanje"
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Julimar Rohas",
+    "zemlja" : "Venecuela",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "troskok"
+    ],
+    "pol" : "z",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Eliud Kipcoge",
+    "zemlja" : "Kenija",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "maraton"
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Damir Mikec",
+    "zemlja" : "Srbija",
+    "sport" : "Streljastvo",
+    "disciplina" : [ 
+        "25m malokalib. pistolj"
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Abdi Nageje",
+    "zemlja" : "Holandija",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "maraton"
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Basir Abdi",
+    "zemlja" : "Belgija",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "maraton"
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Kevin Durent",
+    "zemlja" : "SAD",
+    "sport" : "Kosarka",
+    "disciplina" : [ 
+        ""
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "_id" : ObjectId("612ba56fda7caf82f45485b6"),
+    "imeprezime" : "Zek Lavin",
+    "zemlja" : "SAD",
+    "sport" : "Kosarka",
+    "disciplina" : [ 
+        ""
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "_id" : ObjectId("612ba56fda7caf82f45485b9"),
+    "imeprezime" : "Devin Buker",
+    "zemlja" : "SAD",
+    "sport" : "Kosarka",
+    "disciplina" : [ 
+        ""
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+   "imeprezime" : "Dzejson Tejtum",
+    "zemlja" : "SAD",
+    "sport" : "Kosarka",
+    "disciplina" : [ 
+        ""
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Bredli Bil",
+    "zemlja" : "SAD",
+    "sport" : "Kosarka",
+    "disciplina" : [ 
+        ""
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Dejmijan Lilard",
+    "zemlja" : "SAD",
+    "sport" : "Kosarka",
+    "disciplina" : [ 
+        ""
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Andrija Prlainovic",
+    "zemlja" : "Srbija",
+    "sport" : "Vaterpolo",
+    "disciplina" : [ 
+        ""
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Stefan Mitrovic",
+    "zemlja" : "Srbija",
+    "sport" : "Vaterpolo",
+    "disciplina" : [ 
+        ""
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Nikola Dedovic",
+    "zemlja" : "Srbija",
+    "sport" : "Vaterpolo",
+    "disciplina" : [ 
+        ""
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Gojko Pijetlovic",
+    "zemlja" : "Srbija",
+    "sport" : "Vaterpolo",
+    "disciplina" : [ 
+        ""
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Filip Filipovic",
+    "zemlja" : "Srbija",
+    "sport" : "Vaterpolo",
+    "disciplina" : [ 
+        ""
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Dusko Pijetlovic",
+    "zemlja" : "Srbija",
+    "sport" : "Vaterpolo",
+    "disciplina" : [ 
+        ""
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+     "imeprezime" : "Dusan Mandic",
+    "zemlja" : "Srbija",
+    "sport" : "Vaterpolo",
+    "disciplina" : [ 
+        ""
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Branislav Mitrovic",
+    "zemlja" : "Srbija",
+    "sport" : "Vaterpolo",
+    "disciplina" : [ 
+        ""
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Bjanka Busa",
+    "zemlja" : "Srbija",
+    "sport" : "Odbojka",
+    "disciplina" : [ 
+        ""
+    ],
+    "pol" : "z",
+    "medalja" : 1
+}
+
+{
+    "imeprezime" : "Mina Popovic",
+    "zemlja" : "Srbija",
+    "sport" : "Odbojka",
+    "disciplina" : [ 
+        ""
+    ],
+    "pol" : "z",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Maja Ognjenovic",
+    "zemlja" : "Srbija",
+    "sport" : "Odbojka",
+    "disciplina" : [ 
+        ""
+    ],
+    "pol" : "z",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Mutaz Esa Barsim  ",
+    "zemlja" : "Kenija",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "skok u vis"
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Djanmarko Tamberi",
+    "zemlja" : "Italija",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "skok u vis"
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "_id" : ObjectId("612ba56fda7caf82f45485ec"),
+    "imeprezime" : "Nikola Mektic",
+    "zemlja" : "Hrvatska",
+    "sport" : "Tenis",
+    "disciplina" : [ 
+        "dubl"
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Mate Pavic",
+    "zemlja" : "Hrvatska",
+    "sport" : "Tenis",
+    "disciplina" : [ 
+        "dubl"
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Ilejn Tompson",
+    "zemlja" : "Jamajka",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "100 metara trcanje"
+    ],
+    "pol" : "z",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Milenko Sebic",
+    "zemlja" : "Srbija",
+    "sport" : "Streljastvo",
+    "disciplina" : [ 
+        "50m trostav"
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Sergej Kulis",
+    "zemlja" : "Ukrajina",
+    "sport" : "Streljastvo",
+    "disciplina" : [ 
+        "50m trostav"
+    ],
+    "pol" : "m",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Jon-Herman Heg",
+    "zemlja" : "Norveska",
+    "sport" : "Streljastvo",
+    "disciplina" : [ 
+        "50m trostav"
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Čanghong Žang",
+    "zemlja" : "Kina",
+    "sport" : "Streljastvo",
+    "disciplina" : [ 
+        "50m trostav"
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Juri Šerbacević",
+    "zemlja" : "Belorusija",
+    "sport" : "Streljastvo",
+    "disciplina" : [ 
+        "50m trostav"
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Sergej Kamenski",
+    "zemlja" : "Rusija",
+    "sport" : "Streljastvo",
+    "disciplina" : [ 
+        "50m trostav"
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Petar Gorsa",
+    "zemlja" : "Hrvatska",
+    "sport" : "Streljastvo",
+    "disciplina" : [ 
+        "50m trostav", 
+        "25m malokalib. pistolj"
+    ],
+    "pol" : "m",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Miran Maricic",
+    "zemlja" : "Hrvatska",
+    "sport" : "Streljastvo",
+    "disciplina" : [ 
+        "50m trostav"
+    ],
+    "pol" : "m",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Ivana Spanovic",
+    "zemlja" : "Srbija",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "skok u dalj"
+    ],
+    "pol" : "z",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Malaika Mihambo",
+    "zemlja" : "Nemacka",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "skok u dalj"
+    ],
+    "pol" : "z",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Britni Ris",
+    "zemlja" : "SAD",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "skok u dalj"
+    ],
+    "pol" : "z",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Esi Brume",
+    "zemlja" : "Nigerija",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "skok u dalj"
+    ],
+    "pol" : "z",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Julimar Rohas",
+    "zemlja" : "Venecuela",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "troskok"
+    ],
+    "pol" : "z",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Patrisija Mamona",
+    "zemlja" : "Portugal",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "troskok"
+    ],
+    "pol" : "z",
+    "medalja" : 1
+}
+
+
+{
+   "imeprezime" : "Ana Peleteiro",
+    "zemlja" : "Spanija",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "troskok"
+    ],
+    "pol" : "z",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Šanieka Rikets",
+    "zemlja" : "Jamajka",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "troskok"
+    ],
+    "pol" : "z",
+    "medalja" : 1
+}
+
+
+{
+     "imeprezime" : "Liadagmis Povea",
+    "zemlja" : "Kuba",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "troskok"
+    ],
+    "pol" : "z",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Kejt Nazot",
+    "zemlja" : "SAD",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "skok s motkom"
+    ],
+    "pol" : "z",
+    "medalja" : 1
+}
+
+{
+    "imeprezime" : "Anzelika Sidorova",
+    "zemlja" : "ROK",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "skok s motkom"
+    ],
+    "pol" : "z",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Holi Bradsou",
+    "zemlja" : "Velika Britanija",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "skok s motkom"
+    ],
+    "pol" : "z",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Katerina Stefanidi",
+    "zemlja" : "Grcka",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "skok s motkom"
+    ],
+    "pol" : "z",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Marina Kilipko",
+    "zemlja" : "Ukrajina",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "skok s motkom"
+    ],
+    "pol" : "z",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Vilma Murto",
+    "zemlja" : "Finska",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "skok s motkom"
+    ],
+    "pol" : "z",
+    "medalja" : 0
+}
+
+
+{
+   "imeprezime" : "Tina Sutej",
+    "zemlja" : "Slovenija",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "skok s motkom"
+    ],
+    "pol" : "z",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Nikoleta Kirijakopulu",
+    "zemlja" : "Grcka",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "skok s motkom"
+    ],
+    "pol" : "z",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Marija Andrejcik",
+    "zemlja" : "Poljska",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje koplja"
+    ],
+    "pol" : "z",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Makenzi Litl",
+    "zemlja" : "Australija",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje koplja"
+    ],
+    "pol" : "z",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Lu Huejui",
+    "zemlja" : "Kina",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje koplja"
+    ],
+    "pol" : "z",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Madara Plameika",
+    "zemlja" : "Letonija",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje koplja"
+    ],
+    "pol" : "z",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Tacijana Haladovic",
+    "zemlja" : "Belorusija",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje koplja"
+    ],
+    "pol" : "z",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Zusilene de Lima",
+    "zemlja" : "Brazil",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje koplja"
+    ],
+    "pol" : "z",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Niradz Copra",
+    "zemlja" : "Indija",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje koplja"
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+
+{
+    "imeprezime" : "Jakub Vadlejh",
+    "zemlja" : "Ceska",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje koplja"
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Vitezslav Veseli",
+    "zemlja" : "Ceska",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje koplja"
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Julijan Veber",
+    "zemlja" : "Nemacka",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje koplja"
+    ],
+    "pol" : "m",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Arsad Nadim",
+    "zemlja" : "Pakistan",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje koplja"
+    ],
+    "pol" : "m",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Aleksej Katkavec",
+    "zemlja" : "Belorusija",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje koplja"
+    ],
+    "pol" : "m",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Andrijan Mardare",
+    "zemlja" : "Moldavija",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje koplja"
+    ],
+    "pol" : "m",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Lasi Eteletalo",
+    "zemlja" : "Finska",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje koplja"
+    ],
+    "pol" : "m",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Valari Olman",
+    "zemlja" : "SAD",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje diska"
+    ],
+    "pol" : "z",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Kamalprit Kaur",
+    "zemlja" : "Indija",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje diska"
+    ],
+    "pol" : "z",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Dejzi Osakue",
+    "zemlja" : "Italija",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje diska"
+    ],
+    "pol" : "z",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Marike Stajnaker",
+    "zemlja" : "Nemacka",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje diska"
+    ],
+    "pol" : "z",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Jajme Perez",
+    "zemlja" : "Kuba",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje diska"
+    ],
+    "pol" : "z",
+    "medalja" : 0
+}
+
+
+{
+     "imeprezime" : "Liliana Ka",
+    "zemlja" : "Portugal",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje diska"
+    ],
+    "pol" : "z",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Cen Jang",
+    "zemlja" : "Kina",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje diska"
+    ],
+    "pol" : "z",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Danijel Stol",
+    "zemlja" : "Svedska",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje diska"
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Simon Peterson",
+    "zemlja" : "Svedska",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje diska"
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Lukas Vajshajdinger",
+    "zemlja" : "Austrija",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje diska"
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Metju Deni",
+    "zemlja" : "Australija",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje diska"
+    ],
+    "pol" : "m",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Kristjan Ceh",
+    "zemlja" : "Slovenija",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje diska"
+    ],
+    "pol" : "m",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Andrijus Gudzis",
+    "zemlja" : "Litvanija",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje diska"
+    ],
+    "pol" : "m",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Maurisio Ortega",
+    "zemlja" : "Kolumbija",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje diska"
+    ],
+    "pol" : "m",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Rajan Krauser",
+    "zemlja" : "SAD",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje kugle"
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+     "imeprezime" : "Dzo Kovac",
+    "zemlja" : "SAD",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje kugle"
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+     "imeprezime" : "Tom Vols",
+    "zemlja" : "Novi Zeland",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje kugle"
+    ],
+    "pol" : "m",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Darlan Romani",
+    "zemlja" : "Brazil",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje kugle"
+    ],
+    "pol" : "m",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Zejn Vir",
+    "zemlja" : "Italija",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje kugle"
+    ],
+    "pol" : "m",
+    "medalja" : 0
+}
+
+
+{
+   "imeprezime" : "Kajl Blinjaut",
+    "zemlja" : "Juzna Afrika",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje kugle"
+    ],
+    "pol" : "m",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Armin Sinancevic",
+    "zemlja" : "Srbija",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje kugle"
+    ],
+    "pol" : "m",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Mustafa Amr Hasan",
+    "zemlja" : "Egipat",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje kugle"
+    ],
+    "pol" : "m",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Gung Lidzao",
+    "zemlja" : "Kina",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje kugle"
+    ],
+    "pol" : "z",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Rejven Sonders",
+    "zemlja" : "SAD",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje kugle"
+    ],
+    "pol" : "z",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Valeri Adams",
+    "zemlja" : "Novi Zeland",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje kugle"
+    ],
+    "pol" : "z",
+    "medalja" : 1
+}
+
+
+{
+    "imeprezime" : "Oriol Dongmo",
+    "zemlja" : "Portugal",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje kugle"
+    ],
+    "pol" : "z",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Song Djajuen",
+    "zemlja" : "Kina",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje kugle"
+    ],
+    "pol" : "z",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Medi Ves",
+    "zemlja" : "Novi Zeland",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje kugle"
+    ],
+    "pol" : "z",
+    "medalja" : 0
+}
+
+{
+    "imeprezime" : "Fani Ros",
+    "zemlja" : "Svedska",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje kugle"
+    ],
+    "pol" : "z",
+    "medalja" : 0
+}
+
+
+{
+    "imeprezime" : "Sara Gambeta",
+    "zemlja" : "Nemacka",
+    "sport" : "Atletika",
+    "disciplina" : [ 
+        "bacanje kugle"
+    ],
+    "pol" : "z",
+    "medalja" : 0
+}
+
+
+{
+    "disciplina" : [ 
+        ""
+    ],
+    "imeprezime" : "lol",
+    "zemlja" : "SAD",
+    "sport" : "Odbojka",
+    "pol" : "z",
+    "medalja" : 0
+}
+
+
+{
+   "disciplina" : [ 
+        ""
+    ],
+    "imeprezime" : "kok",
+    "zemlja" : "SAD",
+    "sport" : "Vaterpolo",
+    "pol" : "m",
+    "medalja" : 0
+}
+
+
+{
+    "disciplina" : [ 
+        "troskok"
+    ],
+    "imeprezime" : "Matea Jelic",
+    "zemlja" : "Hrvatska",
+    "sport" : "Atletika",
+    "pol" : "z",
+    "medalja" : 0
+}
+
+
+{
+    "disciplina" : [ 
+        ""
+    ],
+    "imeprezime" : "e1",
+    "zemlja" : "Hrvatska",
+    "sport" : "Vaterpolo",
+    "pol" : "z",
+    "medalja" : 0
+}
+
+
+{
+    "disciplina" : [ 
+        ""
+    ],
+    "imeprezime" : "e2",
+    "zemlja" : "Hrvatska",
+    "sport" : "Vaterpolo",
+    "pol" : "z",
+    "medalja" : 0
+}
+
+
+{
+    "disciplina" : [ 
+        ""
+    ],
+    "imeprezime" : "e3",
+    "zemlja" : "Hrvatska",
+    "sport" : "Vaterpolo",
+    "pol" : "z",
+    "medalja" : 0
+}
+
+
+{
+    "disciplina" : [ 
+        ""
+    ],
+    "imeprezime" : "k1",
+    "zemlja" : "Hrvatska",
+    "sport" : "Vaterpolo",
+    "pol" : "m",
+    "medalja" : 0
+}
+
+
+{
+    "disciplina" : [ 
+        ""
+    ],
+    "imeprezime" : "k2",
+    "zemlja" : "Hrvatska",
+    "sport" : "Vaterpolo",
+    "pol" : "m",
+    "medalja" : 0
+}
+
+
+{
+   "disciplina" : [ 
+        ""
+    ],
+    "imeprezime" : "k3",
+    "zemlja" : "Hrvatska",
+    "sport" : "Vaterpolo",
+    "pol" : "m",
+    "medalja" : 0
+}
+
+
+
+{
+    "disciplina" : [ 
+        ""
+    ],
+    "imeprezime" : "v2",
+    "zemlja" : "Hrvatska",
+    "sport" : "Vaterpolo",
+    "pol" : "m",
+    "medalja" : 0
+}
+
+
+{
+    "disciplina" : [ 
+        ""
+    ],
+    "imeprezime" : "v1",
+    "zemlja" : "Hrvatska",
+    "sport" : "Vaterpolo",
+    "pol" : "m",
+    "medalja" : 0
+}
+
+
+{
+    "disciplina" : [ 
+        ""
+    ],
+    "imeprezime" : "v3",
+    "zemlja" : "Hrvatska",
+    "sport" : "Vaterpolo",
+    "pol" : "m",
+    "medalja" : 0
+}
+
+
+{
+    "disciplina" : [ 
+        ""
+    ],
+    "imeprezime" : "v4",
+    "zemlja" : "Hrvatska",
+    "sport" : "Vaterpolo",
+    "pol" : "m",
+    "medalja" : 0
+}
+
+
+{
+    "disciplina" : [ 
+        "skok s motkom", 
+        "skok u vis"
+    ],
+    "imeprezime" : "Ante",
+    "zemlja" : "Hrvatska",
+    "sport" : "Atletika",
+    "pol" : "m",
+    "medalja" : 0
+}
